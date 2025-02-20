@@ -75,6 +75,6 @@ restart - Restart the bot (Admin Only)
 
 
 
-# ❤️ Thanks To ❤️
+##### ❤️ Thanks To ❤️
 - [JishuDeveloper](https://github.com/JishuDeveloper)
 - [Madflix Official](https://github.com/jishusinha)
