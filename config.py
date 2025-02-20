@@ -1,11 +1,3 @@
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
-
-
-
 import os
 
 class Config:
@@ -14,7 +6,7 @@ class Config:
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "forward-bot") 
     DB_URL = os.environ.get("DB_URL", "")
-    DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+    DB_NAME = os.environ.get("DB_NAME", "")
     OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '').split()]
 
 
@@ -31,8 +23,10 @@ class temp(object):
 
 
 
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
+
+    
+    
+    
+    
+    
+    # Jishu Developer 
