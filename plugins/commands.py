@@ -15,7 +15,8 @@ main_buttons = [[
         InlineKeyboardButton('🛠️ Help', callback_data='help'),
         InlineKeyboardButton('🩷 About', callback_data='about')
         ],[
-        InlineKeyboardButton('🧑‍💻 Developer 🧑‍💻', url='https://t.me/innocent_babe_dead')
+        InlineKeyboardButton('🧑‍💻 Developer 🧑‍💻', url='https://t.me/innocent_babe_dead'),
+        InlineKeyboardButton('🛠️ Help', url='https://t.me/innocent_babe_dead)
         ]]
 
 
@@ -28,7 +29,7 @@ async def start(client, message):
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id, user.first_name)
     reply_markup = InlineKeyboardMarkup(main_buttons)
-    jishubotz = await message.reply_sticker("CAACAgUAAxkBAAENy31nsAR9bgne2-FRSUQ9-zEy2MyixwACUBMAAuCPGFbErxOwKx4X-TYE)
+    jishubotz = await message.reply_sticker("CAACAgUAAxkBAAENy31nsAR9bgne2-FRSUQ9-zEy2MyixwACUBMAAuCPGFbErxOwKx4X-TYE")
     await asyncio.sleep(2)
     await jishubotz.delete()
     text=Translation.START_TXT.format(user.mention)
