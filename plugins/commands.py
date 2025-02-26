@@ -15,8 +15,7 @@ main_buttons = [[
         InlineKeyboardButton('🛠️ Help', callback_data='help'),
         InlineKeyboardButton('🩷 About', callback_data='about')
         ],[
-        InlineKeyboardButton('🧑‍💻 Developer 🧑‍💻', url='https://t.me/innocent_babe_dead'),
-        InlineKeyboardButton('🛠️ Help', url='https://t.me/innocent_babe_dead)
+        InlineKeyboardButton('🧑‍💻 Developer 🧑‍💻', url='https://t.me/innocent_babe_dead')
         ]]
 
 
