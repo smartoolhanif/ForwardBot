@@ -1,7 +1,7 @@
 <img src="https://graph.org/file/7f7dcc89135e7d6c64bbb.jpg" alt="logo" target="/blank">
 
 <h1 align="center">
- <b><a href="https://t.me/[LB_Forward_Bot]" target="/blank"> Try Demo Forward Bot </a></>
+ <b><a href="https://t.me/LB_Forward_Bot" target="/blank"> Try Demo Forward Bot </a></>
 </h1>
 
 <p align="center">🩵 Thanks for Being Here 🩵</p>
