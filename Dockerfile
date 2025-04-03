@@ -6,6 +6,6 @@ COPY requirements.txt /requirements.txt
 
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 
-COPY main.py /main.py
+COPY bot.py /bot.py
 
-CMD ["python3", "/main.py"]
+CMD ["python3", "/bot.py"]
